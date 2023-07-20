@@ -1,8 +1,7 @@
 package main
 
 import (
-	"fmt"
-	"src/github.com/sotacode/practiceGolangStructure/ejercicios"
+	"src/github.com/sotacode/practiceGolangStructure/teclado"
 )
 
 func main() {
@@ -26,7 +25,8 @@ func main() {
 	default:
 		fmt.Printf("%s \n", os)
 	} */
-	numero, mensaje := ejercicios.ConviertoAEntero("34ds")
+	/* numero, mensaje := ejercicios.ConviertoAEntero("34ds")
 	fmt.Println(numero)
-	fmt.Println(mensaje)
+	fmt.Println(mensaje) */
+	teclado.IngresoNumeros()
 }

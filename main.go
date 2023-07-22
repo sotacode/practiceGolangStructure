@@ -1,6 +1,8 @@
 package main
 
-import "src/github.com/sotacode/practiceGolangStructure/files"
+import (
+	"src/github.com/sotacode/practiceGolangStructure/mapas"
+)
 
 func main() {
 	//variables.MuestroEnteros()
@@ -30,5 +32,10 @@ func main() {
 	//iteraciones.Iterar()
 	/* texto := ejercicios.TablaMultiplicar()
 	fmt.Println(texto) */
-	files.LeoArchivo()
+	//files.LeoArchivo()
+	//funciones.Calculos()
+	//funciones.Exponencia(2)
+	//arreglos_slices.MuestroArreglos()
+	//arreglos_slices.Capacidad()
+	mapas.MostrarMapas()
 }

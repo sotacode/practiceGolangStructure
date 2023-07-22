@@ -1,8 +1,6 @@
 package main
 
-import (
-	"src/github.com/sotacode/practiceGolangStructure/ejercicios"
-)
+import "src/github.com/sotacode/practiceGolangStructure/files"
 
 func main() {
 	//variables.MuestroEnteros()
@@ -30,5 +28,7 @@ func main() {
 	fmt.Println(mensaje) */
 	//teclado.IngresoNumeros()
 	//iteraciones.Iterar()
-	ejercicios.GetNumber()
+	/* texto := ejercicios.TablaMultiplicar()
+	fmt.Println(texto) */
+	files.LeoArchivo()
 }

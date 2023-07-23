@@ -1,8 +1,7 @@
 package main
 
 import (
-	"src/github.com/sotacode/practiceGolangStructure/ejer_interfaces"
-	"src/github.com/sotacode/practiceGolangStructure/modelos"
+	"src/github.com/sotacode/practiceGolangStructure/defer_example"
 )
 
 func main() {
@@ -40,8 +39,9 @@ func main() {
 	//arreglos_slices.Capacidad()
 	//mapas.MostrarMapas()
 	//users.AltaUsuario()
-	Pedro := new(modelos.Hombre)
+	/* Pedro := new(modelos.Hombre)
 	ejer_interfaces.HumanosRespirando(Pedro)
 	Maria := new(modelos.Mujer)
-	ejer_interfaces.HumanosRespirando(Maria)
+	ejer_interfaces.HumanosRespirando(Maria) */
+	defer_example.EjemploPanic()
 }

@@ -1,7 +1,7 @@
 package main
 
 import (
-	"src/github.com/sotacode/practiceGolangStructure/defer_example"
+	"src/github.com/sotacode/practiceGolangStructure/webserver"
 )
 
 func main() {
@@ -43,5 +43,11 @@ func main() {
 	ejer_interfaces.HumanosRespirando(Pedro)
 	Maria := new(modelos.Mujer)
 	ejer_interfaces.HumanosRespirando(Maria) */
-	defer_example.EjemploPanic()
+	//defer_example.EjemploPanic()
+	/* canal1 := make(chan bool)
+	go goroutines.MiNombreLentooo("Sota", canal1)
+	fmt.Println("Estoy aqui")
+	<-canal1 //esto seria una especie de await de la go routine */
+	webserver.MiWebServer()
+
 }

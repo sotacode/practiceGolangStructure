@@ -1,7 +1,8 @@
 package main
 
 import (
-	"src/github.com/sotacode/practiceGolangStructure/mapas"
+	"src/github.com/sotacode/practiceGolangStructure/ejer_interfaces"
+	"src/github.com/sotacode/practiceGolangStructure/modelos"
 )
 
 func main() {
@@ -37,5 +38,10 @@ func main() {
 	//funciones.Exponencia(2)
 	//arreglos_slices.MuestroArreglos()
 	//arreglos_slices.Capacidad()
-	mapas.MostrarMapas()
+	//mapas.MostrarMapas()
+	//users.AltaUsuario()
+	Pedro := new(modelos.Hombre)
+	ejer_interfaces.HumanosRespirando(Pedro)
+	Maria := new(modelos.Mujer)
+	ejer_interfaces.HumanosRespirando(Maria)
 }
